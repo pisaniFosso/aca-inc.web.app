@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> ACA </title>
+    <meta name="description" content="ACA">
+    <meta name="author" content="Lead Us">
+
+    <script></script>
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- Bootstrap  -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- icon fonts font Awesome -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/signUp.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--[if lt IE 9]>
+	<script src="../assets/js/html5shiv.js"></script>
+	<![endif]-->
+    <link rel="manifest" href="../manifest.json">
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="../img/icons/icon-96x96.png">
+    <link rel="shortcut icon" href="../img/icons/favicon.ico">
+
+</head>
+
+<body>
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="lading"></div>
+        </div>
+    </div><!-- /#preloader -->
+    <!-- Preloader End-->
+
+
+    <!-- Main Menu -->
+    <div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+        <div class="navbar-header">
+            <!-- responsive navigation -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button> <!-- /.navbar-toggle -->
+
+        </div> <!-- /.navbar-header -->
+
+        <nav class="collapse navbar-collapse">
+            <!-- Main navigation -->
+            <ul id="headernavigation" class="nav navbar-nav">
+                <li class="active"><a href="#page-top">Home</a></li>
+                <li id="subscribe-link" style="display:none"><a href="#subscribe">Subscribe</a></li>
+                <li id="log-out" style="display:none"><a href="/" style="text-decoration: none; color: white;">Sign
+                        Out</a></li>
+                <li id="admin" style="display:none"><a href="/pages/admin.html"
+                        style="text-decoration: none; color: white;" class="external">Admin</a></li>
+            </ul> <!-- /.nav .navbar-nav -->
+        </nav> <!-- /.navbar-collapse  -->
+    </div><!-- /#main-menu -->
+    <!-- Main Menu End -->
+
+
+
+    <!-- Footer Section -->
+    <footer id="footer-section">
+        <p class="">
+            &copy; <a href="#">ACA</a> , All Rights Reserved. Designed by & Developed
+            by <a href="#">Pisani F.</a>
+        </p>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+    <script>
+
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAOxtWR_beXMiVVLUfN3dNvhM2b41XPDKQ",
+            authDomain: "aca-inc.firebaseapp.com",
+            databaseURL: "https://aca-inc.firebaseio.com",
+            projectId: "aca-inc",
+            storageBucket: "aca-inc.appspot.com",
+            messagingSenderId: "554324027588",
+            appId: "1:554324027588:web:d8dc00920a30ee13294191"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const auth = firebase.auth();
+        const storage = firebase.storage();
+    </script>
+
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+    <!-- Modernizr js -->
+    <script type="text/javascript" src="../assets/js/modernizr-2.8.0.min.js"></script>
+    <!-- Plugins -->
+    <script type="text/javascript" src="../assets/js/plugins.js"></script>
+    <!-- Custom JavaScript Functions -->
+    <script type="text/javascript" src="../assets/js/functions.js"></script>
+    <!-- Custom JavaScript Functions -->
+    <script type="text/javascript" src="../assets/js/jquery.ajaxchimp.min.js"></script>
+    <script type="text/javascript" src="../assets/js/app.js"></script>
+    <!-- <script type="text/javascript" src="../assets/js/ui.js"></script> -->
+    <!-- <script type="text/javascript" src="../assets/js/db.js"></script> -->
+    <!-- <script type="text/javascript" src="../assets/js/auth.js"></script> -->
+    <script type="text/javascript" src="../assets/js/verifications_admin.js"></script>
+
+</body>
+
+</html>

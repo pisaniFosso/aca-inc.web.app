@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title> ACA </title>
+  <meta name="description" content="ACA">
+  <meta name="author" content="Lead Us">
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap  -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- icon fonts font Awesome -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link href="assets/css/signUp.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+  <!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link href="assets/css/services.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <!-- <link href="assets/css/ticker.css" rel="stylesheet"> -->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <!-- top news -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="assets/css/news.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- end top news -->
+
+  <!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<![endif]-->
+  <link rel="manifest" href="/manifest.json">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+  <link rel="shortcut icon" href="/img/icons/favicon.ico">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+</head>
+
+<body>
+
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="lading"></div>
+    </div>
+  </div><!-- /#preloader -->
+  <!-- Preloader End-->
+
+
+  <!-- Main Menu -->
+  <div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+    <div class="navbar-header">
+      <!-- responsive navigation -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars"></i>
+      </button> <!-- /.navbar-toggle -->
+
+    </div> <!-- /.navbar-header -->
+
+    <nav class="collapse navbar-collapse">
+      <!-- Main navigation -->
+      <ul id="headernavigation" class="nav navbar-nav">
+        <li class="active"><a href="#page-top">Home</a></li>
+        <li><a href="#page-about">About</a></li>
+        <li id="subscribe-link" style="display:none"><a href="#subscribe">Subscribe</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li id="admin" style="display:none"><a href="/bs-siminta-admin/index.html"
+            style="text-decoration: none; color: white;" class="external">Admin</a></li>
+        <li id="profile" style="display:none"><a href="/pages/profile.html" style="text-decoration: none; color: white;"
+            class="external">Profile</a></li>
+        <li id="log-out" style="display:none"><a href="/" style="text-decoration: none; color: white;">Sign Out</a></li>
+      </ul> <!-- /.nav .navbar-nav -->
+    </nav> <!-- /.navbar-collapse  -->
+  </div><!-- /#main-menu -->
+  <!-- Main Menu End -->
+
+  <!-- images backgroud change -->
+  <input type="file" id="browse-image" name="browse" style="display: none">
+
+  <!-- progress bar  -->
+  <div id="myProgress" class="">
+    <div id="myBar"></div>
+  </div>
+
+  <!-- Page Top Section -->
+  <section id="page-top" class="section-style">
+    <div class="edit">
+      <i id="edit-top" class="fa fa-pencil fa-lg"></i>
+    </div>
+    <!-- <div id="breaking-news-container ">
+      <div id="breaking-news-colour" class="slideup animated">
+
+      </div>
+      <span class="breaking-news-title delay-animated slidein">
+        // NEWS //
+      </span>
+      <div class="breaking-news-headline">
+        ASTUCES POUR RECHERCHE D’EMPLOI Sunday January 03rd, 2021 (7pm - 8pm AST) <a
+          href="https://us04web.zoom.us/j/71776471792?pwd=dU1MaHo2Nzl6M3dPSVBQQXBHK0oyZz09">click here to join the
+          meeting</a>
+      </div>
+    </div> -->
+    <div class="pattern height-resize" id="pattern">
+      <div class="container">
+        <h1 class="site-title" id="site-title">
+          <img src="./ACA png.png" style="width: 70px;">
+        </h1><!-- /.site-title -->
+        <!-- <div id="timer"> -->
+
+          <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+
+                <div class="item active">
+                  <img src="/img/ACEECF.JPG">
+                  <div class="carousel-caption">
+                    <h4><a href="https://firebasestorage.googleapis.com/v0/b/aca-inc.appspot.com/o/ACA%2Finfos%2FPr%C3%A9sentation%20aux%20CEE.pdf?alt=media&token=76f543ce-22ef-4fee-bd69-4af5602b679d">ACEECF : Levier de
+                        développement pour
+                        les entrepreneur.e.s
+                        étudiant.e.s du
+                        Canada francophone</a></h4>
+                    <p>Renforcer le rôle de l’Association des clubs d’entrepreneur.e.s étudiant.e.s du Canada
+                      francophone
+                      (ACEECF) dans l’encouragement de l’entrepreneuriat chez les jeunes, et contribuer à une relève
+                      entrepreneuriale dynamique, confiante et connectée à travers un réseau solide de communautés
+                      francophones et acadiennes du Canada.
+                      <a class="label label-primary" href="https://firebasestorage.googleapis.com/v0/b/aca-inc.appspot.com/o/ACA%2Finfos%2FPr%C3%A9sentation%20aux%20CEE.pdf?alt=media&token=76f543ce-22ef-4fee-bd69-4af5602b679d"
+                        target="_blank">more infos</a>
+                    </p>
+                  </div>
+                </div><!-- End Item -->
+
+                <div class="item">
+                  <img src="/img/permis.jpg">
+                  <div class="carousel-caption">
+                    <h4><a href="https://www.lapresse.ca/actualites/education/2021-01-08/nouveau-permis-de-travail-pour-retenir-les-etudiants-etrangers.php">Nouveau permis de travail pour retenir les étudiants étrangers</a></h4>
+                    <p>(Ottawa) Le gouvernement fédéral offre aux étudiants étrangers un nouveau permis de travail, dans le but de les convaincre de s’installer au Canada de façon permanente.
+                      <a class="label label-primary" href="https://www.lapresse.ca/actualites/education/2021-01-08/nouveau-permis-de-travail-pour-retenir-les-etudiants-etrangers.php"
+                        target="_blank">more infos</a>
+                    </p>
+                  </div>
+                </div><!-- End Item -->
+
+                <div class="item">
+                  <img src="/img/covid-19-map-jan-9.webp">
+                  <div class="carousel-caption">
+                    <h4><a href="https://www.cbc.ca/news/canada/new-brunswick/covid-cases-reported-at-2-woodstock-schools-1.5867420">N.B. COVID-19 roundup: 30 new cases, 4 schools impacted</a></h4>
+                    <p>The cases come as New Brunswick sees a surge in cases of COVID-19 in the new year, sending the entire province back to the orange phase.
+
+                      New Brunswick recorded its second-highest total for a single day on Saturday, announcing 30 new cases. That brings the total number of active cases to 171.
+                      <a class="label label-primary" href="https://www.cbc.ca/news/canada/new-brunswick/covid-cases-reported-at-2-woodstock-schools-1.5867420"
+                        target="_blank">more infos</a>
+                    </p>
+                  </div>
+                </div><!-- End Item -->
+
+                <div class="item">
+                  <img src="/img/credits.JPG">
+                  <div class="carousel-caption">
+                    <h4><a href="#">LeadUs talk show: Crédits et cote de crédit</a></h4>
+                    <p>Vos cotes de crédit sont un aspect important de votre profil financier.
+                      Ne manquez pas le rendez-vous le 7 février 2021 de 19h à 20h.
+                      <a class="label label-primary" href="#"
+                        target="_blank"></a>
+                    </p>
+                  </div>
+                </div><!-- End Item -->
+
+ 
+
+              </div><!-- End Carousel Inner -->
+
+
+              <ul class="list-group col-sm-4">
+                <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active">
+                  <h4>ACEECF : Levier de développement pour les entrepreneur.e.s étudiant.e.s du Canada francophone</h4>
+                </li>
+                <li data-target="#myCarousel" data-slide-to="1" class="list-group-item">
+                  <h4>Nouveau permis de travail pour retenir les étudiants étrangers</h4>
+                </li>
+                <li data-target="#myCarousel" data-slide-to="2" class="list-group-item">
+                  <h4>N.B. COVID-19 roundup: 30 new cases, 4 schools impacted</h4>
+                </li>
+                <li data-target="#myCarousel" data-slide-to="3" class="list-group-item">
+                  <h4>LeadUs talk show: Crédits et cote de crédit</h4>
+                </li>
+              </ul>
+
+              <!-- Controls -->
+              <div class="carousel-controls">
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
+
+            </div><!-- End Carousel -->
+          </div>
+        <!-- </div> -->
+
+        <div class="next-section">
+          <a class="go-to-about"><span></span></a>
+        </div><!-- /.next-section -->
+      </div><!-- /.container -->
+    </div><!-- /.pattern -->
+  </section><!-- /#page-top -->
+  <!-- Page Top Section  End -->
+
+
+  <!-- About Us Section -->
+  <section id="page-about" class="section-style" data-background-image="images/background/about-us.jpg">
+    <div class="edit">
+      <i id="edit-about" class="fa fa-pencil fa-lg"></i>
+      <i id="admin-add" class="fa fa-plus fa-lg"></i>
+    </div>
+    <div class="container center add_admin">
+      <input type="text" id="admin_name" placeholder="Member name">
+      <input type="text" id="admin_position" placeholder="Member position">
+      <input type="text" id="admin_facebook" placeholder="Member facebook page">
+      <input type="text" id="admin_twitter" placeholder="Member twitter page">
+      <input type="text" id="admin_linkedin" placeholder="Member linkedin page">
+      <input type="text" id="admin_github" placeholder="Member github page">
+      <i class="fa fa-camera" aria-hidden="true" style="font-size: 50px;" id="admin_picture_select"></i>
+      <img id="target" src="" style="max-width: 100px; object-fit: cover;">
+      <input type="file" id="admin_picture" placeholder="Member picture" style='display:none;'>
+      <br />
+      <input type="submit" class="btn btn-success rounded" id="submit_add_admin" value="Submit">
+      <input type="submit" class="btn btn-danger rounded" id="cancel_add_admin" value="cancel">
+    </div>
+
+
+    <div class="pattern height-resize">
+      <div class="container">
+
+        <h3 class="section-name">
+          <span>
+            About Us
+          </span>
+        </h3><!-- /.section-name -->
+        <h2 class="section-title">
+          We Are dedicated
+        </h2><!-- /.Section-title  -->
+        <p class="section-description">
+          We Cameroonians residing in the Canadian provinces of the Atlantic region (Prince Edward Island, New
+          Brunswick, Nova Scotia and Newfoundland),
+          convinced of the need to create among Cameroonians a climate of understanding and solidarity and mutual aid,
+          anxious to constantly promote the image of Cameroon,
+          We decide to create a non-profit, apolitical and secular association called Amicale des Camerounais de
+          l'Atlantique,
+          abbreviated A.C.A. Inc.
+        </p><!-- /.section-description -->
+
+        <div class="team-container">
+          <div class="row" id="team">
+
+          </div><!-- /.row -->
+
+        </div><!-- /.team-container -->
+
+
+        <div class="next-section">
+          <a class="go-to-subscribe"><span></span></a>
+        </div><!-- /.next-section -->
+
+      </div><!-- /.container -->
+    </div><!-- /.pattern -->
+
+
+  </section><!-- /#about -->
+  <!-- About Us Section End -->
+
+
+
+  <!-- Subscribe Section -->
+  <section id="subscribe" class="section-style" data-background-image="images/background/newsletter.jpg">
+    <div class="pattern height-resize">
+      <div class="container">
+        <h3 class="section-name">
+          <span>
+            Subscribe
+          </span>
+        </h3><!-- /.section-name -->
+        <h2 class="section-title">
+          Sign Up for Free
+        </h2><!-- /.Section-title  -->
+        <div class="form">
+
+          <ul class="tab-group">
+            <li class="tab active"><a href="#signup">Sign Up</a></li>
+            <li class="tab"><a href="#login">Log In</a></li>
+          </ul>
+
+          <div class="tab-content" id="register-login">
+            <div id="signup">
+              <h1></h1>
+
+              <form action="/" name="register" method="post">
+
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      First Name<span class="req">*</span>
+                    </label>
+                    <input type="text" id="firstName" autocomplete="off" />
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      Last Name<span class="req">*</span>
+                    </label>
+                    <input type="text" id="lastName" autocomplete="off" />
+                  </div>
+                </div>
+
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email" id="email" autocomplete="off" />
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      Phone Number<span class="req">*</span>
+                    </label>
+                    <input type="text" id="phone" autocomplete="off" class="tooltipped" data-position="top"
+                      data-tooltip="phone number will be masked for all users" />
+                  </div>
+                </div>
+
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      Set A Password<span class="req">*</span>
+                    </label>
+                    <input type="password" id="password" autocomplete="off" />
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      Retype the Password<span class="req">*</span>
+                    </label>
+                    <input type="password" id="repassword" autocomplete="off" />
+                  </div>
+                </div>
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <label>
+                      Address<span class="req">*</span>
+                    </label>
+                    <input type="text" id="address" />
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      City<span class="req">*</span>
+                    </label>
+                    <input type="text" id="city" />
+                  </div>
+                </div>
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <select class="browser-default" id="province">
+                      <option value="" disabled selected>Province<span class="req">*</span></option>
+                      <option value="">Choose your Province</option>
+                      <option value="AB">Alberta</option>
+                      <option value="BC">British Columbia</option>
+                      <option value="MB">Manitoba</option>
+                      <option value="NB">New Brunswick</option>
+                      <option value="NL">Newfoundland and Labrador</option>
+                      <option value="NS">Nova Scotia</option>
+                      <option value="ON">Ontario</option>
+                      <option value="PE">Prince Edward Island</option>
+                      <option value="QC">Quebec</option>
+                      <option value="SK">Saskatchewan</option>
+                      <option value="NT">Northwest Territories</option>
+                      <option value="NU">Nunavut</option>
+                      <option value="YT">Yukon</option>
+                    </select>
+                  </div>
+                  <div class="field-wrap">
+                    <label>
+                      Postal code<span class="req">*</span>
+                    </label>
+                    <input type="text" id="postalCode" />
+                  </div>
+                </div>
+                <div class="top-row">
+                  <div class="field-wrap">
+                    <select class="browser-default" id="sexe">
+                      <option value="" disabled selected>Gender<span class="req">*</span></option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+                  </div>
+                  <div class="field-wrap">
+                    <!-- <label for="status"><span class="req">*</span></label> -->
+                    <select class="browser-default" id="status">
+                      <option value="" disabled selected>Status in canada <span class="req">*</span></option>
+                      <option value="Study Permit">Study Permit</option>
+                      <option value="Work Permit">Work Permit</option>
+                      <option value="Permanent Resident">Permanent Resident</option>
+                      <option value="Canadian">Canadian</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="top-row" id="study" style="display: none;">
+                  <div class="field-wrap">
+                    <label>
+                      Study Field<span class="req">*</span>
+                    </label>
+                    <input type="text" id="studyField" autocomplete="off">
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      School<span class="req">*</span>
+                    </label>
+                    <input type="text" id="school" autocomplete="off">
+                  </div>
+                </div>
+
+                <div class="top-row" id="work" style="display: none;">
+                  <div class="field-wrap">
+                    <label>
+                      Work Field<span class="req">*</span>
+                    </label>
+                    <input type="text" id="workField" autocomplete="off">
+                  </div>
+
+                  <div class="field-wrap">
+                    <label>
+                      Employer<span class="req">*</span>
+                    </label>
+                    <input type="text" id="employer" autocomplete="off">
+                  </div>
+                </div>
+                <button type="submit" class="button button-block">Get Started</button>
+
+              </form>
+
+            </div>
+
+            <div id="login">
+              <h1 id="intro">Welcome Back!</h1>
+
+              <form action="#" name="login" method="post" id="form-login">
+
+                <div class="field-wrap">
+                  <label>
+                    Email Address<span class="req">*</span>
+                  </label>
+                  <input type="email" id="loginEmail" autocomplete />
+                </div>
+
+                <div class="field-wrap">
+                  <label>
+                    Password<span class="req">*</span>
+                  </label>
+                  <input type="password" id="loginPassword" autocomplete="off" />
+                </div>
+
+                <p class="forgot" id="forgot"><a>Forgot Password?</a></p>
+
+                <button class="button button-block" id="loginSubmit">Log In</button>
+
+              </form>
+
+            </div>
+
+          </div><!-- tab-content -->
+
+        </div> <!-- /form -->
+
+        <div class="social-btn-container">
+          <span class="social-btn-box">
+            <a href="https://www.facebook.com/Lamicale-Des-Camerounais-De-Latlantique-aca-Inc-291835987543285"
+              class="facebook-btn">
+              <i class="fa fa-facebook"></i></a>
+          </span><!-- /.social-btn-box -->
+
+
+        </div><!-- /.social-btn-container -->
+
+        <div class="next-section">
+          <a class="go-to-contact"><span></span></a>
+        </div><!-- /.next-section -->
+
+      </div><!-- /.container -->
+    </div><!-- /.pattern -->
+
+  </section><!-- /#subscribe -->
+  <!-- Subscribe Section End -->
+
+  <!-- Options section Begin -->
+  <section class="section-style" id="gallery">
+    <div class="pattern height-resize">
+      <div class="container">
+        <div class="edit">
+          <i id="add-photo" class="fa fa-image fa-lg"></i>
+          <i id="add-video" class="fa fa-play fa-lg"></i>
+          <i id="add-service" class="fa fa-handshake-o fa-lg"></i>
+        </div>
+        <h3 class="section-name">
+          <span>
+            Gallery
+          </span>
+        </h3><!-- /.section-name -->
+        <h2 class="section-title">
+          Community
+        </h2><!-- /.Section-title  -->
+
+        <div id="video">
+          <input type="text" id="videoLink" placeholder="Paste the video Link here">
+          <i class="fa fa-camera" aria-hidden="true" style="font-size: 50px;" id="thumbnail_select"></i>
+          <img id="target_thumbnail" src="" style="max-width: 100px; object-fit: cover;">
+          <input type="file" id="target_thumbnail_picture" placeholder="video thumbnail" style='display:none;'>
+          <br />
+          <input type="submit" class="btn btn-success rounded" id="submit_video_link" value="Submit">
+          <input type="submit" class="btn btn-danger rounded" id="cancel_video_link" value="cancel">
+        </div>
+        <div id="service">
+          <input type="text" id="serviceName" placeholder="Service Name">
+          <input type="text" id="serviceLink" placeholder="Paste the service Website Link here">
+          <input type="text" id="serviceFacebookLink" placeholder="Paste the service facebook Link here">
+          <input type="text" id="serviceInstagramLink" placeholder="Paste the service instagram Link here">
+          <input type="text" id="serviceSnapchatLink" placeholder="Paste the service snapchat Link here">
+          <input type="text" id="serviceAddress" placeholder="Enter the service address">
+          <input type="file" id="wordFile" placeholder="select a word document">
+          <i class="fa fa-camera" aria-hidden="true" style="font-size: 50px;" id="logo_select"></i>
+          <img id="target_logo" src="" style="max-width: 100px; object-fit: cover;">
+          <input type="file" id="target_logo_picture" placeholder="Member picture" style='display:none;'>
+          <br />
+          <input type="submit" class="btn btn-success rounded" id="submit_add_service" value="Submit">
+          <input type="submit" class="btn btn-danger rounded" id="cancel_video_link" value="cancel">
+        </div>
+        <div id="image">
+          <i class="fa fa-camera" aria-hidden="true" style="font-size: 50px;" id="target_image_picture_select"></i>
+          <img id="target_image" src="" style="max-width: 100px; object-fit: cover;">
+          <input type="file" id="target_image_picture" placeholder="Member picture" style='display:none;'>
+          <br />
+          <input type="submit" class="btn btn-success rounded" id="submit_add_picture" value="Submit">
+          <input type="submit" class="btn btn-danger rounded" id="cancel_add_picture" value="cancel">
+        </div>
+
+        <ul class="nav nav-tabs item-option">
+          <li class="box-shadow bg-white rounded-circle items text-center" id="item-videos"
+            style="width: 90px; height: 90px; margin-top: -2px;"><a href="#videos" id="item-videos"><i
+                class="fa fa-play fa-3x head-icon" id="item-videos">
+              </i></a>
+          </li>
+          <li class="box-shadow bg-white rounded-circle items text-center " id="item-pictures"
+            style="width: 90px; height: 90px; margin-top: -2px;"><a href="#pictures" id="item-pictures"><i
+                class="fa fa-image fa-3x head-icon" id="item-pictures"></i></a>
+          </li>
+
+          <li class="box-shadow bg-white rounded-circle items text-center" id="item-services"
+            style="width: 90px; height: 90px; margin-top: -2px;"><a href="#services" id="item-services"><i
+                class="fa fa-handshake-o fa-3x head-icon" id="item-services"> </i></a>
+          </li>
+        </ul>
+
+        <div class="tab-pane" id="videos">
+          <div class="background">
+            <div class="container" id="videosList">
+              <!-- <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div>
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div>
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div>
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div>
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div>
+                <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/BjngNWP9C5s?rel=0&showinfo=0&autoplay=1">
+                  <img src="/img/dish.png" async class="play-youtube-video">
+                  </div> -->
+              <!-- <div class="image">
+                  
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  </iframe>
+                </div> -->
+
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="pictures">
+          <div class="background" data-id="pictures">
+            <div class="container" id="imagesList">
+
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-pane" id="services">
+          <div class="container">
+
+            <div class="row" id="servicesList">
+
+              <!-- <h3 class="h3"></h3> -->
+              <!-- <div class="col-md-4 col-sm-6">
+                  <div class="product-grid8">
+                    <div class="product-image8">
+                      <a href="#">
+                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-1.jpg">
+                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-2.jpg">
+                      </a>
+                      <ul class="social">
+                        <li><a href="" class="fa fa-search"></a></li>
+                        <li><a href="" class="fa fa-shopping-bag"></a></li>
+                        <li><a href="" class="fa fa-shopping-cart"></a></li>
+                      </ul>
+                      <span class="product-discount-label">-20%</span>
+                    </div>
+                    <div class="product-content">
+                      <div class="price">£ 8.00
+                        <span>£ 10.00</span>
+                      </div>
+                      <span class="product-shipping">Free Shipping</span>
+                      <h3 class="title"><a href="#">Women's Plain Top</a></h3>
+                      <a class="all-deals" href="">See all deals <i class="fa fa-angle-right icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <div class="product-grid8">
+                    <div class="product-image8">
+                      <a href="#">
+                        <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-3.jpg">
+                        <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo7/images/img-4.jpg">
+                      </a>
+                      <ul class="social">
+                        <li><a href="" class="fa fa-search"></a></li>
+                        <li><a href="" class="fa fa-shopping-bag"></a></li>
+                        <li><a href="" class="fa fa-shopping-cart"></a></li>
+                      </ul>
+                      <span class="product-discount-label">-30%</span>
+                    </div>
+                    <div class="product-content">
+                      <div class="price">£ 7.00
+                        <span>£ 10.00</span>
+                      </div>
+                      <span class="product-shipping">Free Shipping</span>
+                      <h3 class="title"><a href="#">Women's Designer Top</a></h3>
+                      <a class="all-deals" href="">See all deals <i class="fa fa-angle-right icon"></i></a>
+                    </div>
+                  </div>
+                </div> -->
+
+              <!-- <div>
+
+                </div> -->
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Options section end -->
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-style" data-background-image="images/background/contact.jpg">
+    <div class="pattern height-resize">
+      <div class="container">
+        <h3 class="section-name">
+          <span>
+            Contact
+          </span>
+        </h3><!-- /.section-name -->
+        <h2 class="section-title">
+          Get in Touch
+        </h2><!-- /.Section-title  -->
+        <p class="section-description">
+
+        </p><!-- /.section-description -->
+
+        <form id="contact-form" method="post" class="clearfix">
+          <div class="contact-box-hide">
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="first_name" name="first_name" required
+                placeholder="First Name">
+              <span class="first-name-error"></span>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="last_name" name="last_name" required placeholder="Last Name">
+              <span class="last-name-error"></span>
+            </div>
+            <div class="col-sm-6">
+              <input type="email" class="form-control" id="contact_email" name="contact_email" required
+                placeholder="Email Address">
+              <span class="contact-email-error"></span>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="subject" name="contact_subject" required
+                placeholder="Subject">
+              <span class="contact-subject-error"></span>
+            </div>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="5" id="message" name="message" required
+                placeholder="Message"></textarea>
+              <span class="contact-message-error"></span>
+            </div>
+            <div class="col-sm-2">
+              <button id="contact-submit" class="btn custom-btn col-xs-12" type="submit" name="submit"><i
+                  class="fa fa-rocket"></i></button>
+              <span id="contact-loading" class="btn custom-btn col-xs-12"> <i class="fa fa-refresh fa-spin"></i> </span>
+            </div>
+          </div><!-- /.contact-box-hide -->
+          <div class="contact-message"></div>
+
+        </form>
+        <!-- /#contact-->
+
+      </div><!-- /.container -->
+    </div><!-- /.pattern -->
+
+  </section><!-- /#contact -->
+  <!-- Contact Section End -->
+
+
+
+  <!-- Footer Section -->
+  <footer id="footer-section">
+    <p class="">
+      &copy; <a href="#">ACA</a> , All Rights Reserved. Design & Develop
+      by <a href="https://www.linkedin.com/in/pisani-fosso/">Pisani F.</a>
+    </p>
+  </footer>
+  <!-- Footer Section End -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAOxtWR_beXMiVVLUfN3dNvhM2b41XPDKQ",
+      authDomain: "aca-inc.firebaseapp.com",
+      databaseURL: "https://aca-inc.firebaseio.com",
+      projectId: "aca-inc",
+      storageBucket: "aca-inc.appspot.com",
+      messagingSenderId: "554324027588",
+      appId: "1:554324027588:web:d8dc00920a30ee13294191"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const auth = firebase.auth();
+    const storage = firebase.storage();
+  </script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+  <!-- Modernizr js -->
+  <script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
+  <!-- Plugins -->
+  <script type="text/javascript" src="assets/js/plugins.js"></script>
+  <!-- Custom JavaScript Functions -->
+  <script type="text/javascript" src="assets/js/functions.js"></script>
+  <!-- Custom JavaScript Functions -->
+  <script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script type="text/javascript" src="assets/js/ui.js"></script>
+  <script type="text/javascript" src="assets/js/db.js"></script>
+  <script type="text/javascript" src="assets/js/auth.js"></script>
+  <script type="text/javascript" src="assets/js/verifications.js"></script>
+  <script type="text/javascript" src="assets/js/imagesScale.js"></script>
+  <!-- top news -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  <script type="text/javascript" src="assets/js/caroussel.js"></script>
+  <!-- end top news -->
+</body>
+
+</html>
